@@ -25,6 +25,7 @@ tensorflow version 1.2.1
  	python main_full.py  
    
  accuracy: 
+
  	83.3%(10 epoches, learning rate:0.01) 
 
  	87.0%(50 epoches, learning rate:0.005)
@@ -35,6 +36,7 @@ tensorflow version 1.2.1
  	python main_for_bnn.py  
 
  accuracy: 
+
  	79.5%(10 epoches, learning rate:0.01) 
 
  	80% (50 epoches, learning rate:0.005)
