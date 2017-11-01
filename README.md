@@ -19,27 +19,48 @@ tensorflow version 1.2.1
 ## Training
 
 * Train cifar10 model using gpu:
+
  Full presion:
- 	python main_full.py     
+
+ 	python main_full.py  
+   
  accuracy: 
  	83.3%(10 epoches, learning rate:0.01) 
+
  	87.0%(50 epoches, learning rate:0.005)
+
+
  Binaried the weight and output
+
  	python main_for_bnn.py  
+
  accuracy: 
  	79.5%(10 epoches, learning rate:0.01) 
+
  	80% (50 epoches, learning rate:0.005)
+
  Binaried the weight:
+
  	python main_for_bnn1.py 
+
  accuracy: 
+
  	82.5% (10 epoches, learning rate:0.01)
+
  	86.1% (50 epoches, learning rate:0.005)
+
  Ternaried the weight:
+
  	python main.py          
+
  accuracy: 
+
  	83% (10 epoches, learning rate:0.01)
+
  	85.7% (50 epoches, learning rate:0.005)
+
 * Train cifar10 model using cpu:
+
  if you did not own a GPU which can speed up the training, you just need to change the GPU in main.py into True
 
 ## Results
